@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "810040701809",
+    "firebase_url": "https://alternatesforchinaapps.firebaseio.com",
+    "project_id": "alternatesforchinaapps",
+    "storage_bucket": "alternatesforchinaapps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:810040701809:android:ddb6d5a76a31448de37cd0",
+        "android_client_info": {
+          "package_name": "com.devloperloka.alternatesforchinaapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "810040701809-8fbpq0o99ah1jhdhiihm8q3addluuglo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devloperloka.alternatesforchinaapps",
+            "certificate_hash": "5a1dd34933d198e2029217619f1657ad948d8cd3"
+          }
+        },
+        {
+          "client_id": "810040701809-ro9tcrgqpdd155r9b22qtbtkfojjmnqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcQO8lVX7GCT1mEadPLuecF1z-pYDwFQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "810040701809-ro9tcrgqpdd155r9b22qtbtkfojjmnqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

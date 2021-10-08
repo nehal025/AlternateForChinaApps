@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp"
+    android:layout_gravity="center"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+
+    >
+
+    <RelativeLayout
+        android:id="@+id/mRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@drawable/gradient_green">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/mImageViewc"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:elevation="70dp"
+            app:cardCornerRadius="15dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/mImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:id="@+id/Title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/mImageViewc"
+            android:layout_marginLeft="10dp"
+
+
+            android:gravity="center"
+            android:text="Chinies appe"
+         />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/mImageViewc2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:elevation="70dp"
+            app:cardCornerRadius="15dp"
+            android:layout_below="@id/mImageViewc"
+            android:layout_marginTop="12dp"
+
+            >
+        <ImageView
+            android:id="@+id/mImageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_below="@+id/mImageViewc"
+      />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/Title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/mImageViewc2"
+            android:layout_below="@id/mImageViewc"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="22dp"
+
+            android:gravity="center"
+            android:text="Indian app"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/appinfo"
+            android:layout_alignParentRight="true"
+
+          />
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
